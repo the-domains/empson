@@ -1,28 +1,40 @@
-name: Empson
 favicon: null
-layout_spectrum: 0.8054918865673244
-typography_spectrum: 0.7117939575109631
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Empson
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
+  saturation: 0.9857264410238713
   brandStrength: 0.7996672133449465
   lightness: 0.5
-  saturation: 0.9857264410238713
+  brandColors:
+    - '#1A181B'
+    - '#FFFFFF'
+    - '#BCA7A4'
+    - '#735519'
+    - '#F6E686'
   rhythmicContrast: 0.0881376788020134
-purpose: []
+typography_spectrum: 0.7117939575109631
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.8054918865673244
+analytics:
+  twitter: null
+  google: null
+  facebook: null
