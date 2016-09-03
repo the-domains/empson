@@ -1,9 +1,30 @@
-favicon: null
-name: Empson
+typography_spectrum: 0.7117939575109631
+color:
+  saturation: 0.9857264410238713
+  brandStrength: 0.7996672133449465
+  lightness: 0.5
+  brandColors:
+    - '#1A181B'
+    - '#FFFFFF'
+    - '#BCA7A4'
+    - '#735519'
+    - '#F6E686'
+  rhythmicContrast: 0.0881376788020134
 opengraph:
   image: null
   type: null
   appId: null
+layout_spectrum: 0.8054918865673244
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: Empson
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
 collections:
   - index:
       path: /
@@ -16,25 +37,5 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
+description: This is the tag
 purpose: []
-color:
-  saturation: 0.9857264410238713
-  brandStrength: 0.7996672133449465
-  lightness: 0.5
-  brandColors:
-    - '#1A181B'
-    - '#FFFFFF'
-    - '#BCA7A4'
-    - '#735519'
-    - '#F6E686'
-  rhythmicContrast: 0.0881376788020134
-typography_spectrum: 0.7117939575109631
-cta:
-  bucket: null
-  version: null
-  domain: null
-layout_spectrum: 0.8054918865673244
-analytics:
-  twitter: null
-  google: null
-  facebook: null
